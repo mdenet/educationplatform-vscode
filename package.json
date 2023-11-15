@@ -16,11 +16,11 @@
     "jsonValidation": [
       {
         "fileMatch": "*activity.json",
-        "url": "./educationplatform/platform/schemas/activity-config.schema.json"
+        "url": "https://raw.githubusercontent.com/mdenet/educationplatform/main/platform/schemas/activity-config.schema.json"
       },
       {
         "fileMatch": "*tool.json",
-        "url": "./educationplatform/platform/schemas/tool-config.schema.json"
+        "url": "https://raw.githubusercontent.com/mdenet/educationplatform/main/platform/schemas/tool-config.schema.json"
       }
     ]
   },
