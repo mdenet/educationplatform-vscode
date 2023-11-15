@@ -44,5 +44,12 @@
     "typescript": "^5.2.2",
     "@vscode/test-electron": "^2.3.6"
   },
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/mdenet/educationplatform-vscode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdenet/educationplatform-vscode"
+  }
 }

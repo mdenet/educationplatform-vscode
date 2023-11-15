@@ -12,8 +12,9 @@ All files following with names following the patterns `*activity.json` and `*too
 - Documentation on [creating an activity](https://github.com/mdenet/educationplatform/wiki/Creating-an-Activity)
 - Documentation on [creating a tool](https://github.com/mdenet/educationplatform/wiki/Adding-a-Tool)
 
+## Issues
+  Please report any issues found [here](https://github.com/mdenet/educationplatform-vscode/issues).
 
 
-
-
-
+## License 
+This project is licensed under the terms of EPL-2.0. Please refer to the [EPL-2.0](https://raw.githubusercontent.com/mdenet/educationplatform/main/LICENSE) for the full terms.
