@@ -16,11 +16,11 @@
     "jsonValidation": [
       {
         "fileMatch": "*activity.json",
-        "url": "./educationplatform/platform/schemas/activity-config.schema.json"
+        "url": "https://raw.githubusercontent.com/mdenet/educationplatform/main/platform/schemas/activity-config.schema.json"
       },
       {
         "fileMatch": "*tool.json",
-        "url": "./educationplatform/platform/schemas/tool-config.schema.json"
+        "url": "https://raw.githubusercontent.com/mdenet/educationplatform/main/platform/schemas/tool-config.schema.json"
       }
     ]
   },
@@ -43,5 +43,13 @@
     "mocha": "^10.2.0",
     "typescript": "^5.2.2",
     "@vscode/test-electron": "^2.3.6"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/mdenet/educationplatform-vscode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdenet/educationplatform-vscode"
   }
 }
