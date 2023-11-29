@@ -6,6 +6,15 @@ Tool and activity configuration file editor with syntax highlighting and code co
 
 All files following with names following the patterns `*activity.json` and `*tool.json` will be validated.
 
+## Installation
+Currently, the extension has to be installed manually.
+To do so, follow these steps:
+
+1. Checkout the code and create a ZIP file of the complete folder. 
+2. Open the ZIP file and ensure that the top-level folder is called `extension` and contains all the files in the root of the repository.
+3. Rename the ZIP file to have extension `.vsix` instead of `.zip`.
+4. Invoke `code --install-extension <PATH-TO-VSIX-FILE>`. VS Code should confirm successful installation of the extension and you should get code completion and syntax highlighting on the appropriate `.json` files.
+
 ## Using the Platform
 - [Start a local instance of the platform and run some example activities](https://github.com/mdenet/educationplatform-docker)
 - Documentation on [setting up the platform](https://github.com/mdenet/educationplatform/wiki/Setting-up-the-Platform)
