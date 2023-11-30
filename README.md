@@ -11,7 +11,7 @@ Currently, the extension has to be installed manually.
 To do so, follow these steps:
 
 1. Checkout the code and create a ZIP file of the complete folder. 
-2. Open the ZIP file and ensure that the top-level folder is called `extension` and contains all the files in the root of the repository.
+2. Open the ZIP file and ensure that the top-level folder is called `extension` and contains all the files in the root of the repository. In other words, there should be nothing but the folder `extension` at the root of the ZIP file and that folder should contain all the files that can be found in this repository (in particular, it must contain `package.json`, all the `.js` and `.json` files and the `src` and `.vscode` folder).
 3. Rename the ZIP file to have extension `.vsix` instead of `.zip`.
 4. Invoke `code --install-extension <PATH-TO-VSIX-FILE>`. VS Code should confirm successful installation of the extension and you should get code completion and syntax highlighting on the appropriate `.json` files.
 
