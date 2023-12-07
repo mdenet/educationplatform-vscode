@@ -7,13 +7,29 @@ Tool and activity configuration file editor with syntax highlighting and code co
 All files following with names following the patterns `*activity.json` and `*tool.json` will be validated.
 
 ## Installation
-Currently, the extension has to be installed manually.
-To do so, follow these steps:
+Currently, the extension has to be installed manually. Either using a pre-packaged release or by building and packaging the source.
 
-1. Checkout the code and create a ZIP file of the complete folder. 
-2. Open the ZIP file and ensure that the top-level folder is called `extension` and contains all the files in the root of the repository. In other words, there should be nothing but the folder `extension` at the root of the ZIP file and that folder should contain all the files that can be found in this repository (in particular, it must contain `package.json`, all the `.js` and `.json` files and the `src` and `.vscode` folder).
-3. Rename the ZIP file to have extension `.vsix` instead of `.zip`.
-4. Invoke `code --install-extension <PATH-TO-VSIX-FILE>`. VS Code should confirm successful installation of the extension and you should get code completion and syntax highlighting on the appropriate `.json` files.
+### Pre-packaged Release
+ 1. Download a `*.vsix` from [here](https://github.com/mdenet/educationplatform-vscode/releases).
+ 2. Install using a [cli](#install-via-the-command-line) or [VS Code](#install-via-vs-code)
+
+#### Install via the command line
+ 2. Invoke `code --install-extension <PATH-TO-VSIX-FILE>`. 
+ 3. VS Code should confirm successful installation of the extension and you should get code completion and syntax highlighting on the appropriate `.json` files.
+
+#### Install via VS Code
+ 2. Open VS Code and click View > Extensions.
+ 3. In the top right hand corner of the extensions panel which opens click the '...' button and from the sub-menu select 'Install from VSIX...'.
+ 4. In the dialog box that appears, navigate to the location of the vsix file downloaded in [1](#pre-packaged-release) and click install.
+
+
+### Building from Source
+To build the extension from source the following items are required and should be installed first: [Node JS](https://nodejs.org/en), [TypeScript](https://www.typescriptlang.org/), and [VSCE](https://code.visualstudio.com/api/working-with-extensions/publishing-extension).
+
+1. Checkout the code. 
+2. Invoke `vsce package` that will create a mdenet-education-platform-x.x.x.vsix file.
+3. Follow [the steps](#pre-packaged-release) for installing the extension.
+
 
 ## Using the Platform
 - [Start a local instance of the platform and run some example activities](https://github.com/mdenet/educationplatform-docker)
